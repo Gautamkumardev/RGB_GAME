@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <title>Color_Guessing_Game_Vanilla_JS</title>
+</head>
+<body>
+	<h1>Guess The Color</h1>
+	<div class="game">
+		<div class="guessColor"><span></span></div>
+		<div class="colors" data-num="0"></div>
+		<div class="colors" data-num="1"></div>
+		<div class="colors" data-num="2"></div>
+		<div class="colors" data-num="3"></div>
+		<div class="colors" data-num="4"></div>
+		<div class="colors" data-num="5"></div>
+		<div class="colors" data-num="6"></div>
+		<div class="colors" data-num="7"></div>
+		<div class="colors" data-num="8"></div>
+		<div class="info">
+			<span class="points">Score:<b>00</b></span>
+			<span class="lives"><b data-num="0">&#10084;</b><b data-num="1">&#10084;</b><b data-num="2">&#10084;</b><b data-num="3">&#10084;</b></span>
+			<span class="modeSelector">
+      <button class="easy mode active">Easy</button>
+      <button class="hard mode">Hard</button>
+    	</span>
+  			<span><input type="button" class="button" name="restart" id="restart" value="Restart" /></span>
+	</div>
+
+	</div>
+			<div class="result"><div class="wrapper"><span class="won">You <b>Won!</b></span><span class="lost">You<b> Lost! </b> <br />Try Again.</span>
+		 <div>		<span><input type="button" class="button" name="restart" id="replay" value="Replay" /></span>
+	</div>
+			</div></div>
+  <script src="js/index.js"></script>
+ </body>
+</html> 
